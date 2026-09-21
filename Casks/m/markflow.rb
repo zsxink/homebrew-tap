@@ -2,17 +2,19 @@
 # frozen_string_literal: true
 
 cask "markflow" do
-  version "0.0.4"
+  version "0.1.0"
 
   on_arm do
-    url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_aarch64.dmg",
+    url "https://github.com/zsxink/MarkFlow/releases/download/v\#{version}/MarkFlow_\#{version}_aarch64.dmg",
         verified: "github.com/zsxink/MarkFlow/"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "Downloading MarkFlow_0.1.0_aarch64.dmg...
+Warning: MarkFlow_0.1.0_aarch64.dmg not found (HTTP 404) — skipping aarch64 build"
   end
   on_intel do
-    url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_x86_64.dmg",
+    url "https://github.com/zsxink/MarkFlow/releases/download/v\#{version}/MarkFlow_\#{version}_x86_64.dmg",
         verified: "github.com/zsxink/MarkFlow/"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "Downloading MarkFlow_0.1.0_x86_64.dmg...
+Warning: MarkFlow_0.1.0_x86_64.dmg not found (HTTP 404) — skipping x86_64 build"
   end
 
   name "MarkFlow"
