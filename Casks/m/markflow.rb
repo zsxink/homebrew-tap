@@ -2,11 +2,12 @@
 # frozen_string_literal: true
 
 cask "markflow" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
     url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_aarch64.dmg",
-    sha256 "f1ae2fd1e0d00c5be046d2e0c6a16fce7c38a263328e81b0579a9cef35ed256b"
+        verified: "github.com/zsxink/MarkFlow/"
+    sha256 "766e8cfea802f249d45baabd4c034b18f92f07dffa99a08fd9813fda7eb0ada1"
   end
 
 
