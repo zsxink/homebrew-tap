@@ -7,7 +7,7 @@ cask "markflow" do
   on_arm do
     url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_aarch64.dmg",
         verified: "github.com/zsxink/MarkFlow/"
-    sha256 "766e8cfea802f249d45baabd4c034b18f92f07dffa99a08fd9813fda7eb0ada1"
+    sha256 "451793396e22e3710622ae88b3b71f1acb2320ad6f8089eea871de8715e8239d"
   end
 
 
