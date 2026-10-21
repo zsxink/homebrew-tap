@@ -2,16 +2,13 @@
 # frozen_string_literal: true
 
 cask "markflow" do
-  version "0.1.0"
+  version "0.1.1"
 
   on_arm do
-    url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_aarch64.dmg"
-    sha256 "8653027e4a6ad68658f8683024beb4002bc67070cf66568832947f9654d9f320"
+    url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_aarch64.dmg",
+    sha256 "f1ae2fd1e0d00c5be046d2e0c6a16fce7c38a263328e81b0579a9cef35ed256b"
   end
-  on_intel do
-    url "https://github.com/zsxink/MarkFlow/releases/download/v#{version}/MarkFlow_#{version}_x86_64.dmg"
-    sha256 "8653027e4a6ad68658f8683024beb4002bc67070cf66568832947f9654d9f320"
-  end
+
 
   name "MarkFlow"
   desc "Modern Markdown editor with WYSIWYG and source mode"
