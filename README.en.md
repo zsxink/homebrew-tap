@@ -17,7 +17,7 @@ brew install zsxink/tap/markflow
 Update:
 
 ```bash
-brew update && brew upgrade markflow
+brew update && brew upgrade --cask markflow
 ```
 
 MarkFlow is maintained automatically by its release workflow.
