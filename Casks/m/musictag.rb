@@ -13,7 +13,7 @@ cask "musictag" do
   homepage "https://github.com/zsxink/MusicTag"
 
   livecheck do
-    url :stable
+    url "https://github.com/zsxink/MusicTag/releases/latest"
     strategy :github_latest
   end
 
