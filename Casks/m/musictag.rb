@@ -12,5 +12,18 @@ cask "musictag" do
   desc "Edit metadata, cover art and lyrics for local music files"
   homepage "https://github.com/zsxink/MusicTag"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   app "MusicTag.app"
+
+  uninstall quit: "com.musictag.desktop"
+
+  zap trash: [
+    "~/Library/Application Support/MusicTag",
+    "~/Library/Caches/com.musictag.desktop",
+    "~/Library/WebKit/com.musictag.desktop",
+  ]
 end
