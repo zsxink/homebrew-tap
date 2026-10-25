@@ -3,9 +3,9 @@
 cask "musictag" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "37a5432545fba9c0ca84135b72284e478b4f065e36aa37ab41a9c41b263b1070",
-         intel: "d74d25e9c64527a83b9a459132cd25d09c01b9b3e370439158047dd639f151c6"
+  version "0.2.1"
+  sha256 arm:   "357a647becf1befe440e88d5b42c3b92c865b35aa00edf85b14cff5d2c7b89ed",
+         intel: "3bf98f0f6ea5e186bf6cee9f80f71d1262298090d4a832c3a2b6d5051bb4e519"
 
   url "https://github.com/zsxink/MusicTag/releases/download/v#{version}/MusicTag_#{version}_#{arch}.dmg"
   name "MusicTag"
